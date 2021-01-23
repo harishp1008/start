@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#11698E"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img_anim"
+        android:layout_width="66dp"
+        android:layout_centerInParent="true"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/circ_img" />
+    <ImageView
+        android:id="@+id/imganim2"
+        android:layout_width="66dp"
+        android:layout_centerInParent="true"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/circ_img" />
+    <ImageView
+        android:id="@+id/wifi_icon"
+        android:layout_width="66dp"
+        android:layout_centerInParent="true"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/wifi" />
+    <TextView
+        android:id="@+id/text_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scanning Network !"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginTop="176dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
